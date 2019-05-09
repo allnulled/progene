@@ -1,6 +1,6 @@
 # Progene
 
-![](https://img.shields.io/badge/progene-v1.0.0-green.svg) ![](https://img.shields.io/badge/tests-passing-green.svg) ![](https://img.shields.io/badge/coverage-98%25-green.svg) 
+![](https://img.shields.io/badge/version-1.0.0-green.svg) ![](https://img.shields.io/badge/tests-passing-green.svg) ![](https://img.shields.io/badge/coverage-98%25-green.svg) 
 
 Customize and reuse parametrizable Node.js commands accessible from terminal across software projects.
 
