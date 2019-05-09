@@ -1,0 +1,25 @@
+#! /usr/bin/env node
+
+const path = require("path");
+
+const args = require("yargs")
+	.commandDir(__dirname + "/commands")
+	.usage('Usage: $0 <command> [opts]')
+	.demandCommand(1, "")
+  .showHelpOnFail(true)
+	.help()
+	.wrap(72)
+	.epilogue(`Available commands:
+  ~$ progene init [folder] [options]
+  ~$ progene add <command-path> [options]
+  ~$ progene run <command> [options]
+  ~$ progene remove <command> [options]
+(*) Note: Use option --help with any command for more information about it.
+`)
+	.argv
+
+if(typeof args === "string") {
+	return console.log(args);
+}
+
+require(__dirname + "/../src/progene")[args._[0]](args);

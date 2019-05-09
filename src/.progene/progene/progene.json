@@ -1,0 +1,12 @@
+{
+	"name": "progene",
+	"version": "1.0.0",
+	"authors": [],
+	"urls": [
+		"https://github.com/allnulled/progene",
+		"https://www.npmjs.com/package/progene"
+	],
+	"description": "Progene default set of commands.",
+	"npm-package": "@progene/progene",
+	"license": "WTFL"
+}

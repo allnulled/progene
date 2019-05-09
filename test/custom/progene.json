@@ -1,0 +1,9 @@
+{
+	"name": "custom",
+	"version": "1.0.0",
+	"description": "Custom commands for progene tool.",
+	"authors": [],
+	"urls": [],
+	"npm-package": "@progene/custom",
+	"license": "WTFL"
+}
