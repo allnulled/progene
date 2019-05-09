@@ -1,7 +1,7 @@
 {
   "name": "progene",
   "version": "1.0.0",
-  "description": "Customize and reuse parametrizable commands across software projects.",
+  "description": "Customize and reuse parametrizable commands across projects.",
   "main": "src/progene.js",
   "bin": {
     "progene": "bin/progene"

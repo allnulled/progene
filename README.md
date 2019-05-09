@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/progene-v1.0.0-green.svg) ![](https://img.shields.io/badge/tests-passing-green.svg) ![](https://img.shields.io/badge/coverage-98%25-green.svg) 
 
-Customize and reuse parametrizable Node.js and command line interface commands across software projects.
+Customize and reuse parametrizable Node.js commands accessible from terminal across software projects.
 
 [![NPM](https://nodei.co/npm/progene.png?stars&downloads)](https://www.npmjs.com/package/progene)
 
