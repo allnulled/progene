@@ -59,7 +59,7 @@ Contents:
 
 ```js
 module.exports = function(options) {
-	console.log(options.one + " - " + options.two);
+  console.log(options.one + " - " + options.two);
 };
 ```
 
@@ -71,7 +71,7 @@ Contents:
 
 ```js
 module.exports = function(options) {
-	console.log("Hello " + (options.name || "world") + "!");
+  console.log("Hello " + (options.name || "world") + "!");
 };
 ```
 
