@@ -121,7 +121,7 @@ Then you initialize `progene`:
   - `$ cd path/to/project`
   - `$ progene init`
 
-To have:
+...in order to have:
 
   - `path/to/project/.progene`: a folder for all the currently available commands in a project.
 
@@ -129,7 +129,7 @@ Then you add `progene` command namespaces:
 
   - `progene add path/to/commands/namespace`
 
-To have:
+...in order to have:
 
   - `path/to/project/.progene/namespace`: a namespace of commands.
   - `path/to/project/.progene/namespace/command-1.js`: a command.
@@ -170,7 +170,7 @@ Or, alternatively, specify the directory:
 
 ```js
 Progene.init({
-	base: __dirname + "/my/project" // 'base' is by default: process.cwd()
+  base: __dirname + "/my/project" // 'base' is by default: process.cwd()
 });
 ```
 
@@ -178,8 +178,8 @@ Progene.init({
 
 ```js
 Progene.add({ 
-	command: "/path/of/commands/namespace",
-	base: __dirname + "/my/project" // 'base' is by default: process.cwd()
+  command: "/path/of/commands/namespace",
+  base: __dirname + "/my/project" // 'base' is by default: process.cwd()
 });
 ```
 
@@ -187,12 +187,12 @@ Progene.add({
 
 ```js
 Progene.add({ 
-	command: "namespace/command",
-	base: __dirname + "/my/project", // 'base' is by default: process.cwd()
-	name: "Nobody",
-	surname: "None",
-	age: 88,
-	place: "The World"
+  command: "namespace/command",
+  base: __dirname + "/my/project", // 'base' is by default: process.cwd()
+  name: "Nobody",
+  surname: "None",
+  age: 88,
+  place: "The World"
 });
 ```
 
@@ -202,14 +202,16 @@ Note: what the function at `/my/project/.progene/namespace/command.js` returns i
 
 ```js
 Progene.remove({ 
-	command: "namespace/command",
-	base: __dirname + "/my/project", // 'base' is by default: process.cwd()
+  command: "namespace/command",
+  base: __dirname + "/my/project", // 'base' is by default: process.cwd()
 });
 ```
 
 ----
 
-All the methods are chainable, except the `Progene.run({ ... })`, are chainable, because they return the `Progene` class again.
+All the methods are chainable because they return the `Progene` class again. 
+
+All the methods are chainable, except the `Progene.run({ ... })`, which returns what the specified command itself returns, letting you use your own command-line interface also as programmatic APIs.
 
 ## Issues 
 
