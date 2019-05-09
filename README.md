@@ -6,6 +6,17 @@ Customize and reuse parametrizable Node.js and command line interface commands a
 
 [![NPM](https://nodei.co/npm/progene.png?stars&downloads)](https://www.npmjs.com/package/progene)
 
+## Index
+
+1. [Installation](#installation)
+2. [Usage](#installation)
+3. [Commands](#installation)
+4. [How it works](#how-it-works)
+5. [API](#api)
+6. [Issues](#issues)
+7. [License](#license)
+8. [Collaboration](#collaboration)
+
 ## Installation
 
 `$ npm i --g progene`
