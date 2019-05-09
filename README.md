@@ -101,7 +101,7 @@ Under each **namespace** folder, you also find its corresponding `progene.json` 
 
 The `progene.js` only has to be a valid JSON file, nothing is required inside.
 
-This way, one can reuse all the commands that write in one project, for different projects.
+This way, one can reuse all the commands that it writes in one project, for different projects.
 
 ### Workflow
 
