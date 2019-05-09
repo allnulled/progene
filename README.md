@@ -12,7 +12,7 @@ Customize and reuse parametrizable Node.js and command line interface commands a
 
 ## Usage
 
-To see the help of an command, run `progene` or any of its commands with the `--help` flag.
+To see the help of a command, run `progene` or any of its commands with the `--help` flag.
 
 ### Explanation
 
