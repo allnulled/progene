@@ -197,7 +197,7 @@ Progene.add({
 ##### To run a command:
 
 ```js
-Progene.add({ 
+Progene.run({ 
   command: "namespace/command",
   base: __dirname + "/my/project", // 'base' is by default: process.cwd()
   name: "Nobody",
